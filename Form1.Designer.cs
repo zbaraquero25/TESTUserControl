@@ -33,6 +33,7 @@
             flowLayoutPanel1 = new FlowLayoutPanel();
             panelActFeed = new Panel();
             label1 = new Label();
+            button1 = new Button();
             panelActFeed.SuspendLayout();
             SuspendLayout();
             // 
@@ -86,11 +87,21 @@
             label1.TabIndex = 3;
             label1.Text = "Activity Feed";
             // 
+            // button1
+            // 
+            button1.Location = new Point(551, 230);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 4;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(996, 598);
+            Controls.Add(button1);
             Controls.Add(panelActFeed);
             Name = "Form1";
             Text = "Form1";
@@ -107,5 +118,6 @@
         private FlowLayoutPanel flowLayoutPanel1;
         private Panel panelActFeed;
         private Label label1;
+        private Button button1;
     }
 }
